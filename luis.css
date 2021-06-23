@@ -1,0 +1,146 @@
+* {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: 100; 
+}
+.ul2{
+	display: none;
+}
+nav{
+	background-color: #E20FA5 ;
+}
+.ul1_li{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	border:solid 5px #990D70 ;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: grey;
+}
+i{
+	
+	text-align: center;
+	margin-right: 5px;
+}
+li:hover{
+	position: relative;
+	color: grey;
+}
+.noticia{
+	display: none;
+}
+
+
+
+
+
+@media only screen and (max-width:670px){
+	.ul1{
+		display: none;
+	}
+	.nav{
+		height: 50px;
+		width: 100%;
+		background-color:#990D70; 
+	}
+	.ul2{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+	    margin-top: 50px;
+	}
+	li{
+		width: 100%;
+		padding: 10px 10px;
+	}
+	i{
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 50px;
+		color: white;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	.contenedordeboton{
+		position:absolute;
+		top: -50px;
+		right: 0;
+		z-index: 100;
+	}
+	.contenedor{
+		position: relative;
+		top: -1000px;
+		background-color:#E20FA5;
+		height: 100vh;
+		z-index: -1;
+		width: 75%;
+		transition: all 1s;
+	
+	}
+	.ul2:hover > .contenedor{
+		top: 0;
+		transition: all 1s;
+	
+	}
+	.noticia1{
+		background-color: #D2CED1;
+		width: 25%;
+		height: 100vh;
+		position: absolute;
+		right: 0;
+		top: -1000px;
+		z-index: -1;
+		transition: all 1s;
+	}
+	.ul2:hover > .noticia1{
+		top: 0;
+		transition: all 1s;
+	}
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	.boton{
+		color: white;
+		float: right;
+		font-size: 30px;
+		padding: 10px 25px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
